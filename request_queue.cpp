@@ -52,7 +52,7 @@ using namespace std;
     int result = 0;
     for(auto x: requests_)
     {
-        if (x.empty == false)
+        if (!x.empty)
         {        
             result++;           
         }     
